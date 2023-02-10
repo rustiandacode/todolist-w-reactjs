@@ -5,7 +5,6 @@ import { MdDelete } from 'react-icons/md'
 export default function TodoList() {
   const [todo, setTodo] = useState('')
   const [todoList, setTodoList] = useState([])
-  const [tempData, setTempData] = useState('')
   const [tempIndex, setTempIndex] = useState('')
   const [updateData, setUpdateData] = useState('')
 
@@ -25,7 +24,6 @@ export default function TodoList() {
   }
 
   const HandleTempDataAndIndex = (list, index) => {
-    setTempData(list)
     setTempIndex(index)
   }
 
