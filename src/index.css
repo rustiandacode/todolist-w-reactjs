@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-r from-indigo-500 to-purple-700;
+}
+
+@layer utilities {
+  .gradient-blue {
+    @apply bg-gradient-to-r from-cyan-500 to-blue-500;
+  }
+
+  .gradient-purple {
+    @apply bg-gradient-to-r from-indigo-500 to-purple-700;
+  }
+}
